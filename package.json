@@ -1,0 +1,25 @@
+{
+  "name": "xlsx-jsons",
+  "version": "1.0.6",
+  "description": "xlsx-json || json-xlsx",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": ["xlsx","json","xlsx-json","json-xlsx"],
+  "author": "brucer",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.14.4",
+    "antd":"^3.20.7",
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
